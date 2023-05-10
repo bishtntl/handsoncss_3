@@ -1,0 +1,215 @@
+body{
+
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+.box{
+    height: 180px;
+    width: 500px;
+    border: 10px solid red;
+    background-image:linear-gradient(to left, rgba(112, 245, 112, 0.886),rgba(255, 166, 0, 0.249),rgba(255, 0, 119, 0.169), rgba(255, 192, 203, 0.064), rgba(0, 0, 255, 0.45) );
+    padding: 10px;
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 1px 1px 8px purple; 
+    border-radius: 80px; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+     position: relative;
+    left: 480px;   
+}
+.main{
+    height: 800px;
+   position: relative; 
+ 
+   
+    border: 10px solid green;
+
+
+
+}
+
+
+.box1{
+    height: 250px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 8px 8px 5px purple;
+    text-shadow: 1px 1px 8px purple;
+    font-weight: bold;
+    background-image: linear-gradient(to left,rgba(50, 207, 255, 0.459),white);
+    float: inline-start;
+
+
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 20px;
+    margin-right: 80px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0; 
+    top: 0;
+    box-shadow: 8px 8px 5px purple;
+    text-shadow: 1px 1px 8px purple;
+   
+
+}
+img{
+    padding-left: 50px; 
+   padding-top: 20px; 
+}
+.box3{
+    height: 250px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 20px;
+    font-family: 'Secular One', sans-serif;
+    
+    box-shadow: 8px 8px 5px purple;
+    text-shadow: 1px 1px 8px purple;
+    font-weight: bold;
+    background-image: linear-gradient(to left,rgba(50, 207, 255, 0.459),white);
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 80px;
+
+
+
+
+
+
+
+}
+.box4{
+    height: 250px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 20px;
+    font-family: 'Secular One', sans-serif;
+    
+    box-shadow: 8px 8px 5px purple;
+    text-shadow: 1px 1px 8px purple;
+    font-weight: bold;
+    background-image: linear-gradient(to right,rgba(50, 207, 255, 0.459),white);
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: brown;
+    border-radius: 50px
+    
+    
+
+
+}
+.fix{
+    height: 120px;
+    width: 650px;
+    border: 10px solid red;
+    display: inline-block;
+    position: fixed;
+   border-radius: 50px;
+    left: 400px;
+    bottom: 0;
+    background-image: linear-gradient(to left,rgba(136, 255, 0, 0.201),white);
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 1px 1px 8px purple; 
+    z-index: 1;
+    margin-bottom: 20px;
+
+
+
+}
+.a{
+    color: brown;
+    display: inline-block;
+    padding-left: 30px;
+    text-align: center;
+   
+
+
+
+}
+.b{
+
+    display: inline-block;
+    color: brown;
+    margin-left: 150px;
+    padding-top: 30px;
+    text-align: center;
+}
+.master{
+    height: 550px;
+    width: 700px;
+    border: 10px solid green;
+    position: relative;
+    left:325px;
+    background-image: linear-gradient(to bottom ,blue,rgba(0, 128, 0, 0.071)20%,rgba(134, 244, 167, 0.582));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px purple;
+
+
+
+}
+.head{
+    text-align: center;
+
+
+
+}
+.c{
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    font-style: italic;
+}
+.d{
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    right: 0;
+
+}
+.e{
+    height: 200px;
+    width: 700px;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+
+}
+
